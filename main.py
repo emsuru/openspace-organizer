@@ -1,9 +1,9 @@
 # main.py
 # Import the random module to enable random shuffling of the colleagues list
-import random
+from random import shuffle
 # Import pandas as it's a dependency for Openspace.store method;
 # The Openspace.store method is used to store the seating arrangement in an Excel file
-import pandas as pd
+from pandas import DataFrame, ExcelWriter
 # Import Openspace class from the utils package
 # The Openspace class contains the logic for seat allocation in the open space
 from utils.openspace import Openspace
@@ -20,7 +20,7 @@ def main():
     # The path to the CSV file is specified as "./colleagues.csv"
     colleagues = load_colleagues("./colleagues.csv")
     # Shuffle the list of colleagues to ensure that the seat allocation is random each time the script runs
-    random.shuffle(colleagues)
+    shuffle(colleagues)
 
     # Create an instance of the Openspace class to manage the seating arrangement
     # This object will be used to organize, display, and store the seating arrangement

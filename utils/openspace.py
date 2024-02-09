@@ -1,10 +1,10 @@
 # utils/openspace.py
 # Importing the random module to enable shuffling of tables
-import random
+from random import shuffle
 # Importing the Table class from the table module within the same package
 from .table import Table
 # Importing pandas for data manipulation, specifically for storing the output in Excel format
-import pandas as pd
+from pandas import DataFrame, ExcelWriter
 
 # Defining the Openspace class
 class Openspace:
@@ -50,7 +50,7 @@ class Openspace:
         # Iterates over each name in the list of names
         for name in names:
             # Shuffle the tables list to ensure randomness in seat assignment
-            random.shuffle(self.tables)
+            shuffle(self.tables)
             assigned = False
             # Iterates over each table in the list of tables
             for table in self.tables:
@@ -118,7 +118,7 @@ class Openspace:
                 'Occupant': 'The following people could not be seated due to lack of seats: ' + ', '.join(self.unseated_names)
             })
         # Converts the data list into a pandas DataFrame
-        df = pd.DataFrame(data)
+        df = DataFrame(data)
         # Stores the DataFrame into an Excel file
         df.to_excel(filename, index=False)
 
