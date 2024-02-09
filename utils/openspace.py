@@ -30,7 +30,7 @@ class Openspace:
         self.unseated_names = []
 
     # Method to organize people into tables based on the list of names provided
-    def organize(self, names: list):
+    def organize(self, names: list) -> None:
         """
         Organizes people into tables based on the list of names provided.
         If the number of names exceeds the total number of seats available, a warning message is printed.

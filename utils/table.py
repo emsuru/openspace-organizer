@@ -4,14 +4,14 @@ class Seat:
     """
     Represents a seat within a table. Each seat can either be free or occupied by an occupant.
     """
-    def __init__(self):
+    def __init__(self) -> None:
         """
         Initializes a Seat instance, setting it to free and without an occupant.
         """
         self.free = True  # A boolean attribute that indicates if the seat is free (True) or occupied (False)
         self.occupant = ""  # A string attribute that holds the name of the occupant. It's an empty string if the seat is free.
 
-    def set_occupant(self, name: str):
+    def set_occupant(self, name: str) -> None:
         """
         Assigns an occupant to the seat if it is free.
 
