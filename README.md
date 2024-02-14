@@ -1,5 +1,7 @@
 # Open Space Organizer
 
+[![forthebadge made-with-python](https://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 ## Description
 
 This Openspace Organizer takes an input file with a list of names from the user, randomly assigns each person on the user list to a table seat in an open space, and returns this random distribution of seats to the user in an output file.
@@ -61,7 +63,12 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ## Personal background
 
-This is my first solo project submitted as part of the BeCode AI Training, 2024 in Ghent, Belgium. 
+This is my first solo project submitted as part of the BeCode AI Bootcamp, 2024 in Ghent, Belgium. 
 The project's main goal was to practice Object Oriented Programming in Python, as wel as file handling and other programming essentials.
-It was done over the course of two days in February 2024.
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/mirunasuru/).
+
+![OOP-meme-2](https://media.licdn.com/dms/image/D4D12AQHkg-fXKvjxEg/article-cover_image-shrink_423_752/0/1681026736811?e=1713398400&v=beta&t=0vtBUHAM2gSz1ZrLX8AhnjQs7q4YrENaldYbhfSnMAQ)
+
+
 
