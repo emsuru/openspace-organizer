@@ -73,9 +73,14 @@ Contributions are welcome! Please follow these steps to contribute:
 This is my first solo project submitted as part of the BeCode AI Bootcamp, 2024 in Ghent, Belgium. 
 The project's main goal was to practice Object Oriented Programming in Python, as wel as file handling and other programming essentials.
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/mirunasuru/).
+![OOP-meme](https://i.giphy.com/sAFuZGCuBkaPGEtHRK.webp)
 
-![OOP-meme-2](https://media.licdn.com/dms/image/D4D12AQHkg-fXKvjxEg/article-cover_image-shrink_423_752/0/1681026736811?e=1713398400&v=beta&t=0vtBUHAM2gSz1ZrLX8AhnjQs7q4YrENaldYbhfSnMAQ)
+---
 
+Thank you for visiting my project page!
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/mirunasuru/) 
+
+🤍
 
 
