@@ -18,39 +18,40 @@ The program can easily be changed to fit other user numbers.
 
 ## 🧬 Project Structure
 
-The project is structured into several Python files and directories, to ensure modularity and ease of maintenance.
+```
+.
+├── main.py        
+├── utils/
+│ └── openspace.py
+│ └── table.py 
+│ └── file_utils.py
+└── README.md
+```
 
-- `main.py`: This is the entry point of the application. It orchestrates the process of loading the names from the user list, shuffling them, assigning them seats at the openspace tables and storing the seating arrangement in a xls file.
-  
-- `utils/` this directory contains utility classes and functions that support the main application.
-  
-  -- `openspace.py` defines the `Openspace` class responsible for managing the open space.
+## 👩‍💻 Usage
 
-  -- `table.py` contains the `Table` and `Seat` classes. `Table` manages a collection of `Seat` instances, each of which can be occupied by a person.
-  
-  -- `file_utils.py` provides functionality to load names from a CSV file.
-
-## 🛠️ Setup
-
-To set up the project, ensure you have Python installed on your system. Then, install the required packages by running:
+1. To set up the project, ensure you have Python installed on your system. Then, install the required packages by running:
 
 ```bash
 pip install pandas openpyxl
 ```
-
 These packages are necessary for handling CSV and Excel files, respectively.
 
-## 👩‍💻 Usage
-
-To run the program, clone this repo on your local machine, then navigate to its directory in your terminal and execute:
+2. To use your own list, add or replace the existing `./colleagues.csv` (keep the filename)in the project directory.
+   
+3. To run the program, clone this repo on your local machine, then navigate to its directory in your terminal and execute:
 
 ```bash
 python3 main.py
 ```
 
-This will load the list of names from a `./colleagues.csv` (replace this in the project directory with your list while keeping the filename), randomly assign them to seats, print the seating arrangement to the terminal and create an Excel file named `seating_arrangement.xlsx` with the seating arrangement inside the project directory.
+4. Running the program will:
+   - load the list of names from a `./colleagues.csv`
+   - shuffle the names & randomly assign them to seats
+   - print the seating arrangement to the terminal
+   - create an Excel file `seating_arrangement.xlsx` inside the project directory.
 
-Each subsequent run will reshuffle the names, display the new random seating to terminal and overwrite the excel with this new arrangement.
+5. Each subsequent run will reshuffle the names, display the new random seating to terminal and overwrite the excel with this new arrangement.
 
 ## 🙌 Contributing
 
@@ -80,8 +81,9 @@ The project's main goal was to practice Object Oriented Programming in Python, a
 All my code is currently *heavily*:
 
 - docstringed
-- typed
 - commented
+
+.. and sometimes typed.
 
 This is to help me learn and for my feedback sessions with our coach.
 
