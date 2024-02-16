@@ -2,7 +2,7 @@
 
 [![forthebadge made-with-python](https://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-## Description
+## 📖 Description
 
 This Openspace Organizer takes an input file with a list of names from the user, randomly assigns each person on the user list to a table seat in an open space, and returns this random distribution of seats to the user in an output file.
 
@@ -16,7 +16,7 @@ If the input file provided by the user contains more people than the available 2
 
 The program can easily be changed to fit other user numbers.
 
-## Project Structure
+## 🧬 Project Structure
 
 The project is structured into several Python files and directories, to ensure modularity and ease of maintenance.
 
@@ -30,7 +30,7 @@ The project is structured into several Python files and directories, to ensure m
   
   -- `file_utils.py` provides functionality to load names from a CSV file.
 
-## Setup
+## 🛠️ Setup
 
 To set up the project, ensure you have Python installed on your system. Then, install the required packages by running:
 
@@ -40,7 +40,7 @@ pip install pandas openpyxl
 
 These packages are necessary for handling CSV and Excel files, respectively.
 
-## Usage
+## 👩‍💻 Usage
 
 To run the program, clone this repo on your local machine, then navigate to its directory in your terminal and execute:
 
@@ -52,7 +52,7 @@ This will load the list of names from a `./colleagues.csv` (replace this in the 
 
 Each subsequent run will reshuffle the names, display the new random seating to terminal and overwrite the excel with this new arrangement.
 
-## Contributing
+## 🙌 Contributing
 
 Contributions are welcome! Please follow these steps to contribute:
 
@@ -62,18 +62,28 @@ Contributions are welcome! Please follow these steps to contribute:
 - submit a pull request with a clear description of your changes
 - thank you for your contribution :D
 
-## Ideas for further development / contributions:
+## 💡 Ideas for further development / contributions:
 
 - Adding a feature to enable defining the room setup from a config.json file
 - Adding a feature to enable changing dynamically the setup and re-running the program.
 - Adding a feature to deliver an extra format for the distribution of the seats, in a more visual, graphic way
 
-## Project background
+## 📂 Project background
 
 This is my first solo project submitted as part of the BeCode AI Bootcamp, 2024 in Ghent, Belgium. 
 The project's main goal was to practice Object Oriented Programming in Python, as wel as file handling and other programming essentials.
 
 ![OOP-meme](https://i.giphy.com/sAFuZGCuBkaPGEtHRK.webp)
+
+## ⚠️ Warning
+
+All my code is currently *heavily*:
+
+- docstringed
+- typed
+- commented
+
+This is to help me learn and for my feedback sessions with our coach.
 
 ---
 
