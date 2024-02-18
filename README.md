@@ -6,12 +6,6 @@
 
 This Openspace Organizer takes an input file with a list of names from the user, randomly assigns each person on the user list to a table seat in an open space, and returns this random distribution of seats to the user in an output file.
 
-This Organizer is built for the following concrete specifications:
-
-- The input file is accepted in a CSV format
-- The output file is provided in an  XLS format. 
-- The default openspace is organized in 6 tables of 4 seats each.
-
 If the input file provided by the user contains more people than the available 24 seats in the default cofiguration, the program will run correctly and will return a warning and a list of people that remained without a seat.
 
 The program can easily be changed to fit other user numbers.
@@ -37,7 +31,7 @@ pip install pandas openpyxl
 ```
 These packages are necessary for handling CSV and Excel files, respectively.
 
-2. To use your own list, add or replace the existing `./colleagues.csv` (keep the filename)in the project directory.
+2. To use your own list, add or replace the existing `./colleagues.csv` (keep the filename) in the project directory.
    
 3. To run the program, clone this repo on your local machine, then navigate to its directory in your terminal and execute:
 
@@ -52,22 +46,6 @@ python3 main.py
    - create an Excel file `seating_arrangement.xlsx` inside the project directory.
 
 5. Each subsequent run will reshuffle the names, display the new random seating to terminal and overwrite the excel with this new arrangement.
-
-## 🙌 Contributing
-
-Contributions are welcome! Please follow these steps to contribute:
-
-- fork the repository
-- create a new branch for your new feature or bug fix
-- implement your changes
-- submit a pull request with a clear description of your changes
-- thank you for your contribution :D
-
-## 💡 Ideas for further development / contributions:
-
-- Adding a feature to enable defining the room setup from a config.json file
-- Adding a feature to enable changing dynamically the setup and re-running the program.
-- Adding a feature to deliver an extra format for the distribution of the seats, in a more visual, graphic way
 
 ## 📂 Project background
 
